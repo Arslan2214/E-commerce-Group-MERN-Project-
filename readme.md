@@ -117,7 +117,7 @@ project-folder/
 ├── routes/
 ├── .env
 ├── .gitignore
-├── CONTRIBUTE.md
+├── readme.md
 ├── package.json
 ├── server.js
 └── ...
