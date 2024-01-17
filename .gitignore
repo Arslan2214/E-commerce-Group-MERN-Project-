@@ -1,0 +1,4 @@
+node_modules/
+
+# Sensitive files
+.env
