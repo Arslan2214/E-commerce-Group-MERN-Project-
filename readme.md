@@ -7,6 +7,7 @@ Here are keypoints to navigate to:
 - [Technologies used](#technologies-used)
 - [How to contribute?](#how-to-contribute)
 - [Folder structure:](#folder-structure)
+- [How to get latest version in already forked repo](#already-forked-contribution)
 
 ## Technologies used
 
@@ -17,6 +18,55 @@ Technologies we are using are following:
 - Express
 - mongoose
 
+<hr style="height: 1px;">
+
+## How to get latest version in already forked repo?
+
+<a name="already-forked-contribution"></a>
+
+Want to get latest version of this repo into forked one, Repeat following steps:
+
+1. **Navigate to the Forked Repository:**
+   - Go to your forked repository on GitHub.
+
+2. **Clone the Forked Repository Locally:**
+   - Open your terminal or command prompt.
+   - Use the following command to clone your forked repository to your local machine:
+     ```bash
+     git clone <forked-repository-url>
+     ```
+
+3. **Add the Original Repository as Upstream:**
+   - Navigate to the cloned repository folder using the command line.
+   - Set the original repository as the upstream remote:
+     ```bash
+     git remote add upstream <original-repository-url>
+     ```
+
+4. **Fetch the Latest Changes from Upstream:**
+   - Run the following commands to fetch the latest changes from the original repository:
+     ```bash
+     git fetch upstream
+     ```
+
+5. **Merge Changes into Your Local Branch:**
+   - Merge the changes from the upstream repository into your local branch (usually master or main):
+     ```bash
+     git merge upstream/main
+     ```
+     Note: Replace `main` with the appropriate branch name if different.
+
+6. **Push Changes to Your Forked Repository:**
+   - Push the merged changes to your forked repository on GitHub:
+     ```bash
+     git push origin main
+     ```
+     Note: Replace `main` with the appropriate branch name if different.
+
+7. **Keep Your Fork Updated:**
+   - Periodically repeat steps 3-6 to ensure your forked repository stays updated with the latest changes from the original repository.
+
+<hr style="height: 1px;">
 
 ## How to contribute?
 Repeat following steps to start contribution.
