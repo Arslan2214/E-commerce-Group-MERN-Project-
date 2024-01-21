@@ -14,7 +14,7 @@ Here are keypoints to navigate to:
 
 Technologies we are using are following:
 - React 
-- Tailwind 
+- Bootstrap 
 - Express
 - mongoose
 
